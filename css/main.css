@@ -1,0 +1,63 @@
+html,
+body,
+#cover{
+    height: 100%;
+}
+
+#cover{
+    background: url('../images/mainBg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /* chrome desteği için */
+    -moz-background-size: cover; /* mozilla desteği için */
+    -o-background-size: cover; /* opera desteği için */
+
+}
+.fixed-top{
+    max-width: 1140px;
+    margin: 20px auto; /* 20: yukarıdan ve aşağıdan margin yok. AUTO:sag ve sol ortalar */
+}
+
+h1{
+    margin-top: 17%;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.btn-primary{
+    background-color: #fed136;
+    border-style: none;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    padding: 15px 50px;
+
+}
+
+.btn-primary:hover{
+    background-color: #ffffff;
+    color: #fed136;
+}
+
+a.nav-link{
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    color: white !important;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+
+a.nav-link:hover{
+    color: #fed136 !important;
+}
