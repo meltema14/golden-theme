@@ -1,10 +1,10 @@
 html,
 body,
-#cover{
+#cover {
     height: 100%;
 }
 
-#cover{
+#cover {
     background: url('../images/mainBg.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover; /* chrome desteği için */
@@ -12,12 +12,12 @@ body,
     -o-background-size: cover; /* opera desteği için */
 
 }
-.fixed-top{
+.fixed-top {
     max-width: 1140px;
     margin: 20px auto; /* 20: yukarıdan ve aşağıdan margin yok. AUTO:sag ve sol ortalar */
 }
 
-h1{
+h1 {
     margin-top: 17%;
     margin-bottom: 30px;
     font-family: 'Lobster', cursive;
@@ -25,7 +25,7 @@ h1{
     font-size: 40px;
 }
 
-h2{
+h2 {
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
@@ -33,7 +33,7 @@ h2{
     font-weight: 700;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #fed136;
     border-style: none;
     text-transform: uppercase;
@@ -43,12 +43,12 @@ h2{
 
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #ffffff;
     color: #fed136;
 }
 
-a.nav-link{
+a.nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: white !important;
@@ -58,29 +58,29 @@ a.nav-link{
     -o-transition: color 0.5s ease;
 }
 
-a.nav-link:hover{
+a.nav-link:hover {
     color: #fed136 !important;
 }
 
 /* Section Services */
 
-#services{
+#services {
     padding: 120px 0;
 }
 
-.services-top h3, .portfolio-top h3{
+.services-top h3, .portfolio-top h3, .aboutUs-top h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 700;
 }
-.services-top p, .portfolio-top p{
+.services-top p, .portfolio-top p, .aboutUs-top p {
     font-family: 'Lobster', cursive;
     font-size: 20px;
     color: #777;
     margin-bottom: 70px;
 }
 
-.item-circle{
+.item-circle {
     border: 3px solid #fed136;
     width: 100px;
     height: 100px;
@@ -88,24 +88,24 @@ a.nav-link:hover{
     border-radius: 200px;
 }
 
-.services-content i{
+.services-content i {
     color: #fed136;
     line-height: 100px; /* dairenin içinde alttan ve üstten boşluk verdik*/
 }
 
-.services-content h4{
+.services-content h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-top: 24px;
 }
-.services-content p{
+.services-content p {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
     color: 777;
 }
 
-#portfolio{
+#portfolio {
     background-color: #f7f7f7;
     padding-top: 120px;
     padding-bottom: 70px;
@@ -117,18 +117,85 @@ a.nav-link:hover{
     border-style: none;
 }
 
-.portfolio-content .row{
+.portfolio-content .row {
     margin-bottom: 50px;
 }
 
-.portfolio-content .card-title{
+.portfolio-content .card-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
 
-.portfolio-content .card-text{
+.portfolio-content .card-text {
     font-family: 'Lobster', cursive;
     font-size: 14px;
 }
 
+#aboutUs {
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.aboutUs-content .row {
+    margin-bottom: 90px;
+}
+
+.aboutUs-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.aboutUs-content p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: 777;
+}
+
+.aboutUs-content{
+    position: relative; /* bulunduğu alan göz önüne alınır */
+} 
+
+ /* dik çizgi */
+
+.aboutUs-content:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 4px;
+    background-color: #f1f1f1;
+    left: 50%; /* çizgiyi ortaladık*/
+    margin-left: -2px; /* 4px çizgi kalınlığını bu şekilde ortaladık*/
+}
+
+.about-circle {
+    position: relative;
+    text-align: center;
+}
+
+/* daire */
+.about-circle:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 176px;
+    height: 176px;
+    background-color: #fed136 ;
+    border-radius: 170px;
+    border: 7px solid #f1f1f1;
+    left: 50%; 
+    margin-left: -91.5px;  
+}
+
+.yellow-text{
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
