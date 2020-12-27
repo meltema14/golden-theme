@@ -274,3 +274,54 @@ a.nav-link:hover {
     padding: 60px 0 ;
 
 }
+
+#contact {
+    background: url('../images/contact.jpg') no-repeat center center  fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /* chrome desteği için */
+    -moz-background-size: cover; /* mozilla desteği için */
+    -o-background-size: cover; /* opera desteği için */
+    padding: 120px 0;
+}
+
+.contact-top p {
+    font-family: 'Lobster', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.contact-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#name, #email, #subject {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+
+textarea {
+    width: 90%;
+    height: 204px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 5%;
+}
+
+.golden-form-element {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
