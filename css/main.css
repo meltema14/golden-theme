@@ -150,7 +150,7 @@ a.nav-link:hover {
 .aboutUs-content p {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
-    color: 777;
+    color: #777;
 }
 
 .aboutUs-content{
@@ -198,4 +198,75 @@ a.nav-link:hover {
     font-size: 18px;
     font-weight: 700;
     color: white;
+}
+
+#team{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #f9f9f9;
+}
+
+.team-top h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.team-top p {
+    font-family: 'Lobster', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.team-circle{
+    width: 220px;
+    height: 220px;
+    background-color: #000;
+    border-radius: 220px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    margin-bottom: 20px;
+}
+.team-content h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.team-content h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #777;
+    font-weight: 700;
+}
+
+.social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-item {
+    display: inline;  
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.social-icons .fab {
+    border: 2px solid #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 26px;
+}
+
+.team-content p {
+    margin: 50px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: #777;
+    font-weight: 700;
+
 }
